@@ -1,12 +1,12 @@
 <?php
 /*
-Template Name: Sign Up
+Template Name: Sign Up Referral
 */
 get_header(); ?>
 
 		<section role="main" class="schedule signup">
 			<div class="two-column">
-				<h1>Free Class Sign Up</h1>
+				<h1>Free Class Sign Up Referral</h1>
 				<article class="loading">
 					<div class="post">
 
@@ -50,6 +50,12 @@ get_header(); ?>
 									<label for="sign-up-source">How did you hear about us?</label>
 									<select id="sign-up-source">
 										<option value="">How did you hear about us?</option>
+                  					</select>
+								</li>
+								<li>
+									<label for="spoken-to-an-employee">Have you spoken with an X3 employee?</label>
+									<select id="spoken-to-an-employee">
+										<option value="">Have you spoken with an X3 employee?</option>
                   					</select>
 								</li>
 								<li>
