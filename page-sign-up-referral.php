@@ -6,7 +6,7 @@ get_header(); ?>
 
 		<section role="main" class="schedule signup">
 			<div class="two-column">
-				<h1>Free Class Sign Up Referral</h1>
+				<h1>Free Class Sign Up</h1>
 				<article class="loading">
 					<div class="post">
 

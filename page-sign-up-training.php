@@ -47,12 +47,6 @@ get_header(); ?>
 									</select>
 								</li>
 								<li>
-									<label for="sign-up-class">Class Preference</label>
-									<select id="sign-up-class">
-										<option value="">Class Preference</option>
-									</select>
-								</li>
-								<li>
 									<label for="sign-up-goals">Goals (Please include your age if under 18)</label>
 									<textarea id="sign-up-goals" placeholder="Goals (Please include your age if under 18)"></textarea>
 								</li>
