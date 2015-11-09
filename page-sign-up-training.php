@@ -13,17 +13,17 @@ get_header(); ?>
 						<?php if (have_posts()): while (have_posts()) : the_post(); the_content(); edit_post_link('[Edit]', '<p>', '</p>'); endwhile; endif; ?>
 
 					</div><!--post-->
-					<p id="confirmation">Thanks for your interest in X3 Sports!<br /><br />Your free class request has been submitted, and our team will be in touch to confirm your booking. We look forward to seeing you soon.</p>
+					<p id="confirmation">Thanks for your interest in X3 Sports!<br /><br />Your free class fitness assessment & training request has been submitted, and our team will be in touch to contact you to schedule an appointment. We look forward to seeing you soon.</p>
 					<form method="post" action="http://google.com">
 						<div class="user-info">
 							<ul>
 								<li>
 									<label for="sign-up-first-name">First Name</label>
-									<input type="text" id="sign-up-first-name" placeholder="First Name">
+									<input type="text" id="sign-up-first-name" placeholder="First Name *">
 								</li>
 								<li>
 									<label for="sign-up-last-name">Last Name</label>
-									<input type="text" id="sign-up-last-name" placeholder="Last Name">
+									<input type="text" id="sign-up-last-name" placeholder="Last Name *">
 								</li>
 								<li>
 									<label for="sign-up-email">Email *</label>
@@ -34,6 +34,15 @@ get_header(); ?>
 									<input type="text" id="sign-up-phone" placeholder="Phone *">
 								</li>
 								<li>
+									<label for="membership-status">Membership Status:</label>
+									<select id="membership-status">
+										<option value="0">Membership Status *</option>
+										<option value="0">Current Member</option>
+										<option value="0">Former Member</option>
+										<option value="0">Not Yet a Member</option>
+                  </select>
+								</li>								
+								<li>
 									<label for="sign-up-source">How did you hear about us?</label>
 									<select id="sign-up-source">
 										<option value="0">How did you hear about us? *</option>
@@ -42,65 +51,22 @@ get_header(); ?>
 								<li>
 									<label for="sign-up-location">Select Location</label>
 									<select id="sign-up-location">
-										<option value="">Select Location</option>
+										<option value="">Select Location *</option>
 					          <option value="not sure">Not Sure</option>
 									</select>
 								</li>
 								<li>
-									<label for="sign-up-goals">Goals (Please include your age if under 18)</label>
-									<textarea id="sign-up-goals" placeholder="Goals (Please include your age if under 18)"></textarea>
+									<label for="sign-up-goals">Goals</label>
+									<textarea id="sign-up-goals" placeholder="Goals"></textarea>
 								</li>
-								<li>
-									<label for="sign-up-promo">Promo Code</label>
-									<input type="text" id="sign-up-promo" placeholder="Promo Code"></textarea>
-									<p class="sign-up-copy">
-										A promo code is not necessary to redeem your free class.
-									</p>
-								</li>
-								<li>
-									<input name="schedule-method" type="radio" value="Contact me to schedule" id="schedule-method-contact" checked="checked">
-									<label for="schedule-method-contact">Contact me to schedule</label>
-								</li>
-								<li>
-									<input name="schedule-method" type="radio" value="Reserve spot myself" id="schedule-method-self">
-									<label for="schedule-method-self">Reserve spot myself</label>
+									A trainer will contact you to schedule an appointment.
 								</li>
 							</ul>
-
-							<h2>Great! Which class would you like to reserve for your free class?</h2>
-							<p>Please select a date and time below.</p>
-						</div><!--user-info-->
-						<div id="days-list"></div>
-
-						<script id="schedule-template" type="text/x-handlebars-template">
-						{{#each .}}
-						<div class="day-list {{on}}" data-week="{{week}}">
-							<h3>{{title}}</h3>
-							<ol>
-								{{#each entries}}
-								<li class="{{available}}">
-									<input name="ScheduleId" type="radio" value="{{ScheduleId}}" id="{{ScheduleId}}" data-location="{{ClubId}}">
-									<label for="{{ScheduleId}}">{{StartTime}} - {{EndTime}}</label>
-								</li>
-								{{/each}}
-							</ol>
-							<p>Sorry, there are no more classes available today based on your selected choices. Note that free sessions must be booked 4 hours in advance. Please modify your selection or call the location to inquire about last minute availability.</p>
-						</div>
-						{{/each}}
-						</script>
-
-						<p class="cta">Please select a class and specific location to reserve a spot yourself.</p>
-						<p class="no-self-schedule">This class is not presently available for self-scheduling. Our team will be in touch to complete your class booking.</p>
-
-						<ul class="days-nav">
-							<li><a href="#" data-week="thisweek" class="bottom">Previous 7 Days</a></li>
-							<li><a href="#" data-week="nextweek" class="bottom">Next 7 Days</a></li>
-						</ul>
 						<h4><input type="submit" value="Submit"></h4>
 						<p>
 							<span id="validation-required">Some information appears to be missing. Please update the needed fields and try again.</span>
 							<span id="validation-phone-length">Please provide a 10 digit phone number.</span>
-							<span id="validation-choose-location">Please select a specific location to reserve spot yourself.</span>
+							<span id="validation-choose-location">Please select a specific location so we may pair you with a trainer.</span>
 						</p>
 					</form>
 <center><font color="#C0C0C0">* Phone and email are for scheduling purposes only. Your privacy is important to us.</font></center>
