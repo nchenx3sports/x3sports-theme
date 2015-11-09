@@ -8,7 +8,7 @@ get_header(); ?>
 				<div class="content">
 				
 <section role="main" class="x3-exp">
-<a href="<?php echo get_page_link(48); ?>" id="free-class" title="Book my free class now >">Book my free class now ></a>
+<a href="<?php echo get_page_link(48); ?>" id="free-class" title="Book your free class now >">Book your free class now ></a>
 <h1>X3 Experience</h1>
 <article>
 <div id="x3-tint">
