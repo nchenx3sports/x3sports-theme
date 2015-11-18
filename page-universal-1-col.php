@@ -6,7 +6,7 @@ get_header(); ?>
 
 
 		<section role="main">
-			<a href="<?php echo get_page_link(48); ?>" id="free-class" title="Book your free class now >">Book your free class now ></a>
+			<a href="<?php echo get_page_link(48); ?>" id="free-class" title="Book your free class now">Book your free class now</a>
 			<article>
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>			
 				<h1><?php the_title(); ?></h1>
