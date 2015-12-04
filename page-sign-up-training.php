@@ -4,7 +4,7 @@ Template Name: Sign Up Training & Assessment
 */
 get_header(); ?>
 
-		<section role="main" class="schedule signup">
+		<section role="main" class="schedule signup training">
 			<div class="two-column">
 				<h1>Free Training & Assessment Sign Up</h1>
 				<article class="loading">
@@ -36,10 +36,10 @@ get_header(); ?>
 								<li>
 									<label for="membership-status">Membership Status:</label>
 									<select id="membership-status">
-										<option value="0">Membership Status *</option>
-										<option value="0">Current Member</option>
-										<option value="0">Former Member</option>
-										<option value="0">Not Yet a Member</option>
+										<option value="">Membership Status *</option>
+										<option value="Current Member">Current Member</option>
+										<option value="Former Member">Former Member</option>
+										<option value="Not Yet a Member">Not Yet a Member</option>
                   </select>
 								</li>								
 								<li>
