@@ -175,7 +175,12 @@ src="https://www.facebook.com/tr?id=1110341385672559&ev=PageView&noscript=1"
 						<li>&nbsp;</li>
 					</ul>
 					<ul class="second">
-						<li><a href="<?php echo get_page_link(106); ?>">Members</a></li>
+						<li><span <?php if ($root_page_id == 4829) { echo 'class="on"'; } ?>>Members <ins>&#9660;</ins></span>
+<ul>
+<?php $pages = get_pages(array('child_of' => 4829, 'parent' => 4829, 'sort_column' => 'menu_order'));
+  foreach ( $pages as $page ) {	echo '<li><a href="'.get_page_link( $page->ID ).'" title="'.$page->post_title.'">'.$page->post_title.'</a></li>'; } ?>
+</ul>
+						</li>
 						<li><a href="http://x3-sports.myshopify.com/" target="_blank">X3 Store</a></li>
 						<li><a href="<?php echo get_page_link(90); ?>">Contact Us</a></li>
 						<li class="search"><span>Search</span></li>
