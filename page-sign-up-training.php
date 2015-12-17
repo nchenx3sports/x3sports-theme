@@ -6,7 +6,7 @@ get_header(); ?>
 
 		<section role="main" class="schedule signup training">
 			<div class="two-column">
-				<h1>Free Training & Assessment Sign Up</h1>
+				<h1>Free Body Assessment & Fitness Goal Consultation Sign Up</h1>
 				<article class="loading">
 					<div class="post">
 
