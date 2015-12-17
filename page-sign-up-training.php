@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Sign Up Training & Assessment
+Template Name: Sign Up for Body Assessment & Fitness Consultation
 */
 get_header(); ?>
 
@@ -13,7 +13,7 @@ get_header(); ?>
 						<?php if (have_posts()): while (have_posts()) : the_post(); the_content(); edit_post_link('[Edit]', '<p>', '</p>'); endwhile; endif; ?>
 
 					</div><!--post-->
-					<p id="confirmation">Thanks for your interest in X3 Sports!<br /><br />Your free class fitness assessment & training request has been submitted, and our team will be in touch to contact you to schedule an appointment. We look forward to seeing you soon.</p>
+					<p id="confirmation">Thanks for your interest in X3 Sports!<br /><br />Your free Body Assessment & Fitness Goal Consultation request has been submitted, and our X3 Sports team will contact you soon to set up an appointment.</p>
 					<form method="post" action="http://google.com">
 						<div class="user-info">
 							<ul>
@@ -59,14 +59,14 @@ get_header(); ?>
 									<label for="sign-up-goals">Goals</label>
 									<textarea id="sign-up-goals" placeholder="Goals"></textarea>
 								</li>
-									A trainer will contact you to schedule an appointment.
+									We will contact you soon to schedule an appointment.
 								</li>
 							</ul>
 						<h4><input type="submit" value="Submit"></h4>
 						<p>
 							<span id="validation-required">Some information appears to be missing. Please update the needed fields and try again.</span>
 							<span id="validation-phone-length">Please provide a 10 digit phone number.</span>
-							<span id="validation-choose-location">Please select a specific location so we may pair you with a trainer.</span>
+							<span id="validation-choose-location">Please select a specific location.</span>
 						</p>
 					</form>
 <center><font color="#C0C0C0">* Phone and email are for scheduling purposes only. Your privacy is important to us.</font></center>
