@@ -173,6 +173,19 @@ var google_replace_number="678-903-0100";
 							</ul>
 						</li>
 						<li><a href="<?php echo get_page_link(57); ?>" <?php if ($root_page_id == 57) { echo 'class="on"'; } ?>>Success Stories</a></li>
+						<li class="subnav"><span <?php if ($root_page_id == 4829) { echo 'class="on"'; } ?>>Members <ins>&#9660;</ins></span>
+							<ul>
+                                <li><a href="<?php echo get_page_link(101); ?>">Membership Programs</a></li>
+                                <li><a href="http://www.clubready.com/cl/x3sports.asp">ClubReady</a></li>
+                                <li><a href="<?php echo get_page_link(4640); ?>">Perkville</a></li>                                                                
+                                <li><a href="<?php echo get_page_link(4968); ?>">X3 Plus</a></li>
+								<li><a href="http://info.x3sports.com/bodyassessments">Body & Performance Assessments</a></li>
+                                <li><a href="https://www.surveymonkey.com/r/VCBYPGC">Instructor/Class Survey</a></li>
+								<li><a href="<?php echo get_page_link(106); ?>">FAQ</a></li>                                
+                                <li><a href="<?php echo get_page_link(5000); ?>">Freeze or<br>Cancel Membership</a></li>
+                                <li><a href="http://info.x3sports.com/member-feedback">Feedback</a></li>
+							</ul>
+						</li>
 						<li><span <?php if ($root_page_id == 6) { echo 'class="on"'; } ?>>About Us <ins>&#9660;</ins></span>
 							<ul>
 <?php $pages = get_pages(array('child_of' => 6, 'parent' => 6, 'sort_column' => 'menu_order'));
