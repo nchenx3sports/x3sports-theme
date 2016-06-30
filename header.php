@@ -146,6 +146,12 @@ src="https://www.facebook.com/tr?id=1110341385672559&ev=PageView&noscript=1"
 		window._fbq.push(["track", "PixelInitialized", {}]);
 		</script>
 
+<!--START Google Code for PHONE CLICKS-->
+<script type="text/javascript">
+var google_replace_number="678-903-0100";
+(function(a,e,c,f,g,b,d){var h={ak:"1052881263",cl:"3flNCMfNymcQ7-KG9gM"};a[c]=a[c]||function(){(a[c].q=a[c].q||[]).push(arguments)};a[f]||(a[f]=h.ak);b=e.createElement(g);b.async=1;b.src="//www.gstatic.com/wcm/loader.js";d=e.getElementsByTagName(g)[0];d.parentNode.insertBefore(b,d);a._googWcmGet=function(b,d,e){a[c](2,b,h,d,null,new Date,e)}})(window,document,"_googWcmImpl","_googWcmAk","script");
+</script>
+<!--END Google Code for PHONE CLICKS--->
 	</head>
 		<div id="header">
 			<div>
