@@ -118,11 +118,9 @@ get_header(); ?>
 			</div><!--slider-controls-->
 		
 
-
-<!--LIVE FEED-->
-<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="x3sports" data-columns="3" data-expand="true"  data-count="12"  data-paginate="true"  style="height:500px;width:100%;"></div>
-<!--LIVE FEED-->
-
+<!--TINTUP SOCIAL INSTAGRAM LIVE FEED-->
+<script async src="https://d36hc0p18k1aoc.cloudfront.net/public/js/modules/tintembed.js"></script><div class="tintup" data-id="x3sports" data-columns="3" data-expand="true"    data-clickformore="true"  style="height:500px;width:100%;"></div>
+<!--TINTUP SOCIAL INSTAGRAM LIVE FEED-->
 
 
 <?php if (get('blog_posts_post_1_id') != '') { ?>			
