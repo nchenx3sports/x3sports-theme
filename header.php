@@ -182,9 +182,12 @@ var google_replace_number="678-903-0100";
 						<li>&nbsp;</li>
 					</ul>
 					<ul class="second">
-						<li><a href="<?php echo get_page_link(106); ?>">Members</a></li>
-						<li><a href="http://x3-sports.myshopify.com/" target="_blank">X3 Store</a></li>
+						<li><a href="http://facebook.com/x3sports"><IMG SRC="http://x3sports.com/wordpress/wp-content/uploads/2016/02/socialred_facebook.png" BORDER="0" WIDTH="25" HEIGHT="25" ALT="facebook.com/x3sports"></A>
+						<a href="http://instagram.com/x3sports"><IMG SRC="http://x3sports.com/wordpress/wp-content/uploads/2016/02/socialred_instagram.png" BORDER="0" WIDTH="25" HEIGHT="25" ALT="Instagram @x3sports"></A></li>
+						<li><a href="http://blog.x3sports.com/">Blog</a></li>
 						<li><a href="http://info.x3sports.com/contact-us">Contact Us</a></li>
+						<li><B><body onload="_googWcmGet('number', '678-903-0100')">
+		  <span id="number">678-903-0100</span></body></B></li>
 						<li class="search"><span>Search</span></li>
 					</ul>
 					<form role="search" method="get" action="<?php echo home_url(); ?>/">
