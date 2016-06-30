@@ -29,9 +29,9 @@ get_header(); ?>
 								</div>
 								<div class="item mma" style="background-image:url('<?php echo get('mma_hero_image') ?>')">
 									<div class="text">
-										<h3>"I could feel the family atmosphere and loved it."</h3>
-										<p>Lost: Hard times. Gained: Celebrity status as a UFA fighter.</p>
-										<a href="<?php echo get_page_link(57); ?>#<?php echo( basename(get_permalink(2656)) ); ?>" title="Read my story">Read my story</a> 
+										<h3>"X3 made me a professional fighter. It's the start of a dream."</h3>
+										<p>Lost: Amateur Status. Gained: Professional MMA Fighter.</p>
+										<a href="<?php echo get_page_link(57); ?>#<?php echo( basename(get_permalink(5659)) ); ?>" title="Read my story">Read my story</a> 
 										<a href="<?php echo get_page_link(25); ?>" title="Learn more about MMA">Learn more about MMA</a>
 									</div><!--text-->
 								</div>
@@ -53,9 +53,9 @@ get_header(); ?>
 								</div>
 								<div class="item bjj" style="background-image:url('<?php echo get('brazilian_jiu_jitsu_hero_image') ?>')">
 									<div class="text">
-										<h3>"X3 is my life now."</h3>
-										<p>Lost: 40 lbs. Gained: A home away from home.</p>
-										<a href="<?php echo get_page_link(57); ?>#<?php echo( basename(get_permalink(2676)) ); ?>" title="Read my story">Read my story</a> 
+										<h3>"Fun, Amazing & Exciting - All those put together is X3."</h3>
+										<p>Lost: 60 lbs. Gained: Discipline & Focus.</p>
+										<a href="<?php echo get_page_link(57); ?>#<?php echo( basename(get_permalink(5426)) ); ?>" title="Read my story">Read my story</a>
 										<a href="<?php echo get_page_link(27); ?>" title="Learn more about BJJ">Learn more about BJJ</a>
 									</div><!--text-->
 								</div>
